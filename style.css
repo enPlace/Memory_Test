@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(24, 23, 23);
+    font-family: sans-serif
 
 }
 body{
@@ -10,8 +11,10 @@ body{
  text-align: center;
 }
 p{
-    color: gray;
+    color: rgb(173, 173, 173);
     font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
     
 }
 h4{
@@ -26,8 +29,7 @@ h1{
 }
 
 .buttons{
-    margin-top: 70px;
-    margin-bottom: -30px;
+    margin: 70px;
 }
 .action{
     width: 210px;
@@ -53,7 +55,10 @@ img{
     
 }
 .gameboard{
-    padding: 10%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
     
 }
 .card{
