@@ -1,5 +1,5 @@
 *{
-    
+    box-sizing: border-box;
 }
 html{
     background-color: rgb(31, 30, 30);
@@ -7,6 +7,7 @@ html{
 }
 body{
     margin: 0px;
+    text-align: center;
      
 }
 p{
@@ -19,9 +20,31 @@ header{
     color: rgb(114, 198, 250);
 }
 
-button{
+.buttons{
+    
+    text-align: center;
+}
+.action{
     width: 140px;
     height: 50px;
     font-size: 15px;
-    text-align: center;
+    margin: 10px;
+
+}
+
+img{
+   padding: 50px;
+   
+    
+    
+}
+.card{
+    border: 3px solid rgb(77, 144, 185);
+    width: 250px; 
+    height: 250px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+
+ 
 }
