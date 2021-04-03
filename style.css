@@ -6,36 +6,54 @@ html{
 
 }
 body{
-    margin: 0px;
-    text-align: center;
-     
+  
+ text-align: center;
 }
 p{
     color: gray;
+    font-size: 18px;
+    
 }
 h4{
     color: gray;
+    font-size: 20px;
 }
 header{
     color: rgb(114, 198, 250);
 }
+h1{
+    font-size: 50px;
+}
 
 .buttons{
-    
-    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -30px;
 }
 .action{
-    width: 140px;
-    height: 50px;
-    font-size: 15px;
+    width: 210px;
+    height: 70px;
+    font-size: 18px;
     margin: 10px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.719);
+    background-color: rgba(35, 113, 231, 0.349);
+    
+    border: none;
 
+}
+.action:hover{
+    background-color:rgba(114, 198, 250, 0.527); 
+    cursor: pointer;
 }
 
 img{
    padding: 50px;
    
     
+    
+}
+.gameboard{
+    padding: 10%;
     
 }
 .card{
@@ -47,4 +65,7 @@ img{
     justify-content: center;
 
  
+}
+.card:hover{
+    background-color:rgba(114, 198, 250, 0.13)
 }
